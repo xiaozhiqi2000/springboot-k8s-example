@@ -4,7 +4,7 @@ def projectProperties = [
         [$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', numToKeepStr: '5']],
         parameters([
             string(name: 'DOCKER_USER', defaultValue: 'pythonxiao', description: 'docker用户名'),
-            string(name: 'DOCKER_PASSWORD', defaultValue: 'XdvRW8FjJKk2cI%bSUK0', description: 'docker用户密码'),
+            string(name: 'DOCKER_PASSWORD', defaultValue: 'XzqAXdvRW8FjJKk2cI%bSUK0', description: 'docker用户密码'),
             string(name: 'REGISTRY_URL', defaultValue: 'registry.cn-hangzhou.aliyuncs.com', description: 'docker仓库地址')
         ])
 ]
